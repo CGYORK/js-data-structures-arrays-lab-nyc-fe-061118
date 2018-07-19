@@ -21,3 +21,6 @@ function prependDriver(name) {
   let updatedDrivers = [name, ...drivers];
   return updatedDrivers
 }
+function removeLastDriver() {
+  
+}
