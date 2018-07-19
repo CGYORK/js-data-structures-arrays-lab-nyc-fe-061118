@@ -16,5 +16,5 @@ function appendDriver(name) {
   let updatedDriver = [...drivers, "Broom"]; 
 }
 function prependDriver(name) {
-  let updatedDrivers = []
+  let updatedDrivers = ["Arnold", ...drivers];
 }
