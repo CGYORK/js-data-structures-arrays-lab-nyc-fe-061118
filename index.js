@@ -26,3 +26,8 @@ function removeLastDriver() {
   let appendedDriver = drivers.slice(0, 2);
   return appendedDriver;
 }
+function removeLastDriver() {
+  drivers.slice(0, 2);
+  let appendedDriver = drivers.slice(0, 2);
+  return appendedDriver;
+}
