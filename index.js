@@ -15,14 +15,14 @@ function destructivelyRemoveFirstDriver() {
 }
 function appendDriver(name) {
   let updatedDriver = [...drivers, name]; 
-  return updatedDriver
+  return updatedDriver;
 }
 function prependDriver(name) {
   let updatedDrivers = [name, ...drivers];
-  return updatedDrivers
+  return updatedDrivers;
 }
 function removeLastDriver() {
-  drivers.slice(0,2)
-  let appendedDriver = [drivers.slice(0,2)]
-  return appendedDriver
+  drivers.slice(0, 2);
+  let appendedDriver = [drivers.slice(0, 2)];
+  return appendedDriver;
 }
