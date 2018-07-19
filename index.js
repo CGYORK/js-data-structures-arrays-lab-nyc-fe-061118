@@ -13,5 +13,5 @@ function destructivelyRemoveFirstDriver() {
   drivers.shift();
 }
 function appendDriver(name) {
-  let drivers = (...drivers, "Broom") 
+  let drivers = (...drivers, "Broom"); 
 }
